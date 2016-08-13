@@ -45,7 +45,7 @@ var settings = module.exports = {
 
     functionGlobalContext: { },
 
-    // storageModule: require("./mongostorage")
+    storageModule: require("./mongostorage")
 };
 
 if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
@@ -69,5 +69,5 @@ if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
     };
 }
 
-// settings.mongoAppname = 'nodered';
-// settings.mongoUrl = process.env.MONGOLAB_URI;
+settings.mongoAppname = 'nodered';
+settings.mongoUrl = 'xxx'; // xxx为你的MongoDB URI地址
