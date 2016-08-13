@@ -45,7 +45,9 @@ var settings = module.exports = {
 
     functionGlobalContext: { },
 
-    storageModule: require("./mongostorage")
+    storageModule: require("./mongostorage"),
+
+    httpNodeRoot: "/"
 };
 
 if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
