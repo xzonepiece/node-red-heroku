@@ -19,7 +19,8 @@
         "node-red-node-flickr":"0.1.1",
         "node-red-contrib-slack":"0.1.1",
         "node-red-contrib-googlechart":"0.0.10",
-        "node-red-contrib-github":"0.1.5"
+        "node-red-contrib-github":"0.1.5",
+        "node-red-vis":"0.x"
     },
     "engines": {
         "node": "0.10.x"
