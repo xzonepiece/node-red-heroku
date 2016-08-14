@@ -8,21 +8,15 @@
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
         "node-red": "0.x",
-        "node-red-bluemix-nodes":"0.x",
-        "node-red-contrib-scx-ibmiotapp":"0.x",
-        "node-red-contrib-ibmpush":"0.x",
-        "node-red-contrib-bluemix-hdfs":"0.x",
-        "node-red-nodes-cf-sqldb-dashdb":"0.x",
-        "node-red-dashboard":"2.0.1",
-        "node-red-node-pushbullet":"0.0.9",
-        "node-red-node-instagram":"0.1.0",
-        "node-red-node-flickr":"0.1.1",
-        "node-red-contrib-slack":"0.1.1",
-        "node-red-contrib-googlechart":"0.0.10",
-        "node-red-contrib-github":"0.1.5",
-        "node-red-vis":"0.x"
+        "node-red-dashboard":"2.x",
+        "node-red-node-pushbullet":"0.x",
+        "node-red-node-instagram":"0.x",
+        "node-red-node-flickr":"0.x",
+        "node-red-contrib-slack":"0.x",
+        "node-red-contrib-googlechart":"0.x",
+        "node-red-contrib-github":"0.x"
     },
     "engines": {
-        "node": "0.10.x"
+        "node": "4.x"
     }
 }
